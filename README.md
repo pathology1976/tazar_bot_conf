@@ -8,20 +8,28 @@
 ```bash
 git clone https://github.com/pathology1976/tazar_bot_conf.git
 cd tazar_bot_conf
+```
 
 2. Создайте виртуальное окружение и активируйте его:
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 3. Установите зависимости:
+```bash
 pip install -r requirements.txt
+```
 
 4. Создайте файл .env на основе .env.example и заполните его своими данными:
+```python
 BOT_TOKEN=ваш_токен_бота
 ADMIN_IDS=ваш_id_администратора
+```
 
 5. Запустите бота:
+```bash
 python bot.py
+```
 
 ## Функциональность
 - Сбор анкетных данных пользователей
